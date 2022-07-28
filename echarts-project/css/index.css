@@ -11,9 +11,31 @@
 }
 .colum{
     flex: 3;
-    background-color: aliceblue;
+    margin: 0 .1875rem;
 }
 .colum:nth-child(2){
     flex: 4;
     background-color: blue;
+}
+.colum:nth-child(1){
+ display: flex;
+ flex-direction: column;
+}
+.colum-item{
+
+    background-color: rgb(22, 83, 89);
+    margin:  .15rem 0;
+}
+.colum-item:nth-child(1){
+    height: 1.3054rem;
+    background-color: aqua;
+}
+.colum-item:nth-child(2){
+    padding: .2848rem 0;
+   height: 5.6963rem;
+    background-color: rgb(138, 181, 65);
+}
+.colum-item:nth-child(3){
+    height: 4.0346rem;
+    background-color: rgb(165, 120, 120);
 }
